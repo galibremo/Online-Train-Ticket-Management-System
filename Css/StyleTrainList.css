@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.content-table
+{
+	border-collapse: collapse;
+	margin: 25px 0px;
+	font-size: 0.9em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr
+{
+	background-color: skyblue; 
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table th,.content-table td
+{
+	padding: 12px 15px;
+}
+.content-table tbody tr
+{
+	border-bottom: 1px solid #dddddd;
+}
+.content-table tbody:nth-of-type(even)
+{
+	background-color:#f3f3f3;
+}
+.content-table tbody:last-of-type
+{
+	border-bottom: 2px solid skyblue;
+}
+#a-link1
+{
+	text-align: right;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: skyblue;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding:5px
+}
+#a-link1:hover
+{
+    background-color: #333;
+    color: skyblue;
+}
+#a-link2
+{
+	text-align: right;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: skyblue;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding:5px
+}
+#a-link2:hover
+{
+    background-color: red;
+    color: #333;
+}
+#div1
+{
+	text-align: right;
+}

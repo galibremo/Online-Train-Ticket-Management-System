@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    
+}
+#logo-div
+{
+    background-color:skyblue;
+    min-height: 50px;
+    width:100%;
+    padding-left: 1%;
+}
+
+#nav-div
+{
+    font-size: 18px;
+    padding-right: 1%;
+    background-color: #333;
+    text-align: right;
+    min-height: 50px;
+    width:100%;
+    
+    line-height: 50px;
+    color: white;
+}
+#nav-div a
+{   
+    text-decoration: none;
+    color: white;
+}
+#nav-div a:hover
+{   
+    background-color: skyblue;
+    color:#333;
+}
+#menu-div
+{
+    color: white;
+    width:20%;
+    font-size: 20px;
+    padding-left: 1%;
+    min-height: 50px;
+    background-color: #333;
+    float: left;
+    border:1px solid skyblue;
+}
+#dsb-div
+{
+    color:white;
+    width: 80%;
+    min-height: 50px;
+    background-color:#333;
+    float: right;
+    text-align: center;
+    border:1px solid skyblue;
+}
+#head-div
+{
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 50px;
+    width:100%;
+    line-height: 50px;
+}
+
+#main-div
+{
+    width:100%;
+   
+
+}
+#sidebar-div
+{
+    width:20%;
+    padding: 2.3%;
+    font-size: 20px;
+    height: 448px;
+    background-color: #333;
+    float: left;
+}
+#sidebar-div a:hover
+{
+    background-color: skyblue;
+    color: #333;
+}
+#sidebar-div a
+{
+    display: block;
+    color: white;
+    border-radius: 3px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+#bodyarea-div
+{
+    width: 80%;
+    height: 448px;
+    float: right;
+    border:1px solid skyblue;
+    background-color:white;
+}
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer-div
+{
+    background-color:skyblue;
+    min-height: 50px;
+}
+#wrapper-div
+{   
+
+    width: 100%;
+    
+}
