@@ -1,5 +1,8 @@
 <?php 
 session_start();
+include '../Model/Searchtraindb.php';
+include '../Model/Addtrainroutedb.php';
+include '../Model/Addtraindb.php';
 include '../Model/Mydb.php';
 $name=$email=$number=$dob=$gender=$nid=$address=$vendortype=$password=$cpassword="";
 if(empty($_SESSION['uname']))

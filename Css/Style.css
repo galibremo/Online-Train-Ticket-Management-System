@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body
 {
@@ -10,6 +11,11 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: URL(../logo/train1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1520px 900px;
 }
 .container 
 {
@@ -17,14 +23,14 @@ body
     flex-direction: column;
     width: 300px;
     padding: 15px;
-    border: 1px solid skyblue;
+    border: 2px solid skyblue;
     border-radius: 5px;
 }
 .center
 {
     margin: 10px 0px 0px 50px;
 }
-#input-field
+.input-field
 {
     height: 260px;
     width: 260px;
@@ -57,16 +63,44 @@ input[type=checkbox]
 h4
 {
     text-align: center;
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
     color: #333;
+    color: black;
+    text-shadow: 5px 5px 15px black;
+    background-color: skyblue;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+
 }
 label
 {
     font-family: serif;
 	text-align: center;
 	display: block;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+}
+span
+{
+    color: white;
+    text-shadow: 5px 5px 15px black;
 }
 p
 {
     margin-left: 5px;
+    text-shadow: 5px 5px 15px black;
+    font-size: 17px;
+    color: red;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: #333;
+    background-color: skyblue;
+    border-radius: 3px;
 }

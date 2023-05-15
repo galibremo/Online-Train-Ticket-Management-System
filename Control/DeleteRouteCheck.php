@@ -15,7 +15,7 @@ if(isset($_REQUEST['tcode']))
 	if($result===TRUE)
 	{
 	    echo "Success";
-	    header("Location: ../View/Routelist.php");
+	    header("Location: ../View/profile.php");
 
 	}
 	else

@@ -53,7 +53,7 @@ include "../Control/Profilecheck.php";
 			
 			<div class=print-user-info>
 				<label>Nid Card:</label><br>
-				<br><img src="<?php echo $nid ?>" width="462" height="200">
+				<br><img src="<?php echo $nid;?>" width="462" height="200">
 			</div>
 
 			<div class=print-user-info>
@@ -61,7 +61,7 @@ include "../Control/Profilecheck.php";
 				<?php echo $cpassword;?>
 			</div>
 			<div class="">
-			<a href='EditProfileInfo.php?email=<?php echo $email;?>& nid=<?php echo $nid;?>'>Edit Profile</a>	
+			<a id="vhref" href='EditProfileInfo.php?email=<?php echo $email;?>& nid=<?php echo $nid;?>'>Edit Profile</a>	
 			</div>
 		</div>
 	</div>	

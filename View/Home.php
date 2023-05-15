@@ -2,46 +2,32 @@
 <html>
 <head>
 	<title>Ticket management system</title>
+	<link rel="stylesheet" type="text/css" href="../Css/StyleHome.css">
+	
 </head>
 <body>
-<table width="1500">
-<tr>
-<td><?php include "../Layout/Header.php";?></td>
-<td align="Right">
-<nav align="Right">
-<big><a href="Home.php">Home</a> &nbsp | </big> &nbsp
-<big><a href="Login.php">Login</a> &nbsp | </big> &nbsp
-<big><a href="Registration.php">Register</a> &nbsp | </big> &nbsp
-</nav>
-</td>
-</tr>
-</table>
+<div id="wrapper-div">
+<div id="header">
+	<div id="left-header">
+	<?php include "../Layout/Header.php";?>
+	</div>
+	<div id="right-header">
+		<nav align="Right">
+		<big><a href="Home.php">Home</a> | </big> 
+		<big><a href="login.php">Login</a> | </big> 
+		<big><a href="Registration.php">Register</a> | </big> 
+		<big><a href="#footer">Contact</a></big> 
+		</nav>
+	</div>
+</div>
 
-<table height="10" width="1500">
-<tr>
-	<td></td>
-	<td></td>
-</tr>
-</table>
+<div class="main-body">
+	<p>ONLINE TICKET RESERVATION SYSTEM<br> WELCOME TO,<br>E - TICKETING FOR RAILWAYS</p>
+</div>
 
-<table width="1500" bgcolor="#34495E">
-<tr>
-	<td align="center" width="750"><font color="black"><h3><font color=white>BUY TICKET ONLINE SEARCH SELECT AND PURCHESS</font></h3></font></td>
-	<td><img src="http://localhost/TTMC/Logo/train.jpg" height="500" width="750"></td>
-</tr>
-</table>
-
-<table height="10" width="1500">
-<tr>
-	<td></td>
-	<td></td>
-</tr>
-</table>
-
-<table width="1500">
-<tr>
-	<td align="center"><?php include "../Layout/Footer.php";?></td>
-</tr>
-</table>
+<div id="footer">
+	<?php include "../Layout/Footer.php";?>
+</div>
+</div>
 </body>
 </html>>

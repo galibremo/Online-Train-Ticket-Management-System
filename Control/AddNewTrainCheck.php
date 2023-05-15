@@ -92,7 +92,7 @@ if(isset($_REQUEST['submit']))
 		if($result===TRUE)
 		{
 		    echo "Success";
-		    header("Location: ../View/TrainList.php");
+		    header("Location: ../View/profile.php");
 		}
 		else
 		{

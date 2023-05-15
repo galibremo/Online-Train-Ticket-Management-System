@@ -10,7 +10,11 @@ include '../Control/EditProfileInfoCheck.php';
 </head>
 <body>
 <form action="" method="POST" enctype="multipart/form-data">
+<div id="warp-reg">
 <div class=container>
+	<div class=header>
+        Edit Info
+    </div>
 	<div class=main-user-info>
         <div class=user-input-box>
 			<label><b>Username:</b></label>
@@ -83,6 +87,7 @@ include '../Control/EditProfileInfoCheck.php';
 		<div class=label-bottom>
 		<input type="submit" class="button" name="update" value="Update">
 		</div>
+</div>
 </div>
 </form>
 </body>

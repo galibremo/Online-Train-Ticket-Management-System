@@ -104,7 +104,7 @@ if(isset($_REQUEST['update']))
 		if($result===TRUE)
 		{
 		    echo "Success";
-		    header("Location: ../View/Trainlist.php");
+		    header("Location: ../View/profile.php");
 		}
 		else
 		{

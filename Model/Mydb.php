@@ -44,6 +44,12 @@ class MyDB
 		$result=$conn->query($sql);
 		return $result;	
 	}
+	function getAllUser($tablename,$conn)
+	{
+		$sql="SELECT * FROM $tablename";
+		$result=$conn->query($sql);
+		return $result;
+	}
 	
 }
 

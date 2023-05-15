@@ -10,14 +10,23 @@
    <body>
       <script src="../Js/MyScript.js"></script>
       <form action="" method="POST" enctype="multipart/form-data" onsubmit="return validation()">
+         <div id="header">
+            <div id="left-header">
+            <?php include "../Layout/Header.php";?>
+            </div>
+            <div id="right-header">
+               <nav align="Right">
+               <big><a href="Home.php">Home</a> | </big> 
+               <big><a href="login.php">Login</a> | </big> 
+               <big><a href="Registration.php">Register</a> | </big> 
+               <big><a href="#footer">Contact</a></big> 
+               </nav>
+            </div>
+         </div>
+         <div id="warp-reg">
          <div class=container>
             <div class=header>
-               <?php include "../Layout/Header.php";?>
-               <nav>
-                  <a href="Home.php">Home</a> | 
-                  <a href="Login.php">Login</a> | 
-                  <a href="Registration.php">Register</a> | 
-               </nav>
+               Registration Form
             </div>
             <div class=main-user-info>
                <div class=user-input-box>
@@ -90,10 +99,13 @@
                </div>
             </div>
             <div class=label-bottom>
-               <input type="submit" class="button" name="submit" value="Sign In"><br>
-               <span class=>already have an account?<a href="Login.php">LogIn</a></span>
+               <input type="submit" class="button" name="submit" value="Sign Up"><br>
             </div>
-         </div>   
+         </div> 
+         </div>
+         <div id="footer">
+            <?php include "../Layout/Footer.php";?>
+         </div>  
       </form>
    </body>
 </html>
